@@ -58,8 +58,8 @@ header_pages:
  - Introduction.md
  - circuit project.md
  - education.md
- - contact.md
  - publication.md
+ - contact.md
 # Build settings
 theme: minima
 
