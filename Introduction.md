@@ -4,11 +4,10 @@ layout: home
 ---
 
 
-
-<div style="background: url('[https://th.bing.com/th/id/OIG2.S2sv_QRxWJH0Xqwzx8WN?pid=ImgGn](https://static.vecteezy.com/system/resources/thumbnails/011/687/937/small_2x/electronic-circuit-board-for-technology-and-finance-concept-and-education-vector.jpg)') no-repeat center center; background-size: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 100px 20px;">
-    <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"> </h1>
 </div>
-
+<div style="background: url('https://th.bing.com/th/id/OIG2.S2sv_QRxWJH0Xqwzx8WN?pid=ImgGn](https://static.vecteezy.com/system/resources/thumbnails/011/687/937/small_2x/electronic-circuit-board-for-technology-and-finance-concept-and-education-vector.jpg') no-repeat center center; background-size: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 100px 20px;">
+    <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
+</div>
 
 ## Introduction:
 
