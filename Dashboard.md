@@ -42,7 +42,7 @@ One of the advantages of using EasyEDA is its integrated 3D PCB visualization fe
 By leveraging the capabilities of EasyEDA and incorporating best practices in RF circuit design, we aim to develop a functional FM transmitter that meets performance requirements and serves as a valuable learning experience for electronics enthusiasts.
 
 ### 4. USB-C to 5V DC Power Converter
-[3dpcb](https://github.com/Khandoker09/Circuit_profile_khandoker/blob/main/project/usbc%20to%205%20volt/3d_usbc_5v.PNG)
+![3dpcb](https://github.com/Khandoker09/Circuit_profile_khandoker/blob/main/project/usbc%20to%205%20volt/3d_usbc_5v.PNG)
 This project aims to design a USB-C to 5V DC power converter, allowing for the conversion of power from a USB-C power source to a stable 5V output. The converter consists of a USB-C connector, a power management IC (PMIC) capable of handling USB Power Delivery (PD) negotiation, and supporting passive components such as capacitors and resistors. The design process involves schematic design, PCB layout, prototype assembly, testing, and optimization. By following industry standards and best practices, the converter ensures efficient and reliable power conversion for various electronic devices.
 
 
