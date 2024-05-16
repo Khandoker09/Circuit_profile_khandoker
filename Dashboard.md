@@ -1,48 +1,15 @@
 ---
-title: Dashboard Project(Python)
+title: circuit project
 layout: page
 ---
 
-<div style="background: url('https://www.datascienceportfol.io/static/profile_pics/pr0_80F3EE3F5BEBCB9D617D.JPG') no-repeat center center; background-size: contain; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 50px 0;">
-    <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
-</div>
+## Mapping of Mammalian Purkinje Network on an Electrically Equivalent Circuit
+![PCB Front Image](https://github.com/Khandoker09/Circuit_profile_khandoker/blob/main/project/purkinji%20circuit/schematic.PNG)
+The circuit simulation was conducted using cable theory to analyze the delay signal in the heart's response, which is influenced by factors beyond just electrical conduction. A 10 Hz single frequency signal with 1 volt (peak to peak) amplitude was inputted via a frequency generator. In normal conditions, the heart's pulse propagates with a 0.6 volt (peak to peak) signal, and although there is no ground connection in reality, a common ground was added for simulation purposes. Blocks were added in place of Purkinje cells, and the output was observed from each block to measure conduction delay.
+
+![PCB](https://github.com/Khandoker09/Circuit_profile_khandoker/blob/main/project/purkinji%20circuit/3d%20pb.PNG)
+
+Electrical blocks were cascaded to facilitate pulse propagation between cells, with voltage control voltage gates used to continue propagation to the next segment. Resistor and capacitor values were carefully chosen to determine conduction delay, with 100 ohm resistors selected for extracellular membrane and 1 ohm resistors for intracellular space, along with 10 microfarad capacitors for membrane capacitance. Notably, the simulation did not consider the electrical conduction of muscle tissue.
 
 
 
-# 1. [Simple App to Visualize Excel Data (SaVeD)](https://github.com/Khandoker09/SaVeDv0.1)
-**Simple data analysis tool with some visualization options using Streamlit.**
-
-You can upload your own datasets in this app. However, there are some limitations; you can only upload files that are limited to 200MB or below.
-
-### File Type
-This app supports `.xlsx` and `.csv` file types.
-
-### Options
-This app has two analysis options which are the following:
-- **Overall Columns**
-  - Analyze
-  - Chart type
-
-#### Overall Columns
-You can check the datasets by dropping whichever columns you want. Also, you can sort the columns by clicking the column name in the table.
-
-<div style="background: url('https://www.datascienceportfol.io/static/profile_pics/pr1_00C62621795232DA30D8.JPG') no-repeat center center; background-size: contain; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; padding: 50px 0;">
-    <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);"></h1>
-</div>
-
-# 2. [DaZ v 0.02: Interactive Dashboard for Data Analysis](#)
-Using this tool we can do the following:
-- Filter column.
-- Delete an entire column and also rename the column.
-- Sort columns in ascending, descending order.
-- Delete specific rows.
-- Export after cleaning the data.
-
-# 3. [Value at Risk Calculation App v0.1](https://github.com/Khandoker09/Value-at-Risk-Analysis)
-This is a simple app to calculate the value at risk for a number of companies based on historical data. Tips: Use at least more than one company to create a portfolio; otherwise, this code will not work.
-
-## What is Conditional Value at Risk?
-Conditional value-at-risk (CVaR) quantifies the average loss over a specified time period of unlikely scenarios beyond the confidence level.
-
-### Using this tool, it is possible to:
-- Calculate VAR for any company.
