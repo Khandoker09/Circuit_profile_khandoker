@@ -4,7 +4,7 @@ layout: page
 ---
 
 ## 1. Mapping of Mammalian Purkinje Network on an Electrically Equivalent Circuit
-![PCB Front Image](https://github.com/Khandoker09/Circuit_profile_khandoker/blob/main/project/purkinji%20circuit/schematic.PNG/)
+![PCB Front Image](/project/purkinji%20circuit/schematic.PNG)
 The circuit simulation was conducted using cable theory to analyze the delay signal in the heart's response, which is influenced by factors beyond just electrical conduction. A 10 Hz single frequency signal with 1 volt (peak to peak) amplitude was inputted via a frequency generator. In normal conditions, the heart's pulse propagates with a 0.6 volt (peak to peak) signal, and although there is no ground connection in reality, a common ground was added for simulation purposes. Blocks were added in place of Purkinje cells, and the output was observed from each block to measure conduction delay.
 
 ![PCB](https://github.com/Khandoker09/Circuit_profile_khandoker/blob/main/project/purkinji%20circuit/3d%20pb.PNG)
