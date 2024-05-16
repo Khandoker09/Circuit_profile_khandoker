@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   
 #https://khandoker09.github.io/khandoker/
 show_excerpts: false # set to true to show excerpts on the homepage
-baseurl: "/datascience_portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/Circuit_profile_khandoker" # the subpath of your site, e.g. /blog
 url: "https://khandoker09.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 
